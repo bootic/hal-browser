@@ -26,8 +26,11 @@
 
 .inspector { height: 100%; }
 
-.documentation { height: 100%; }
-.documentation iframe { 
+.documentation {
+  min-height: 800px;
+}
+.documentation iframe {
+  min-height: 800px;
   width: 100%; height: 100%;
   border-width: 0 0 1px 0;
   border-style: solid;
